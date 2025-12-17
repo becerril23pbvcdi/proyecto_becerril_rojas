@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web educativo sobre Movimiento y Estabilidad: Fuerzas e Interacciones">
+    <title>Física V - Movimiento y Estabilidad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="menu_principal.html">
+                <img src="logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-top me-2">
+                Física V
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <!-- 6 OPCIONES DE MENÚ -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="tema1.html">Leyes de Newton</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tema2.html">Fuerzas Fundamentales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tema3.html">Equilibrio y Torque</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tema4.html">Movimiento Circular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="opiniones.html">Opiniones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="biografia.html">Autor</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <span class="navbar-text text-white me-3">
+                        Bienvenido, Estudiante
+                    </span>
+                    <a href="index.html" class="btn btn-outline-light">Cerrar Sesión</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL (Ejemplo de Blog Bootstrap) -->
+    <main class="container mt-5 pt-5">
+        <div class="p-4 p-md-5 mb-4 text-white rounded bg-primary">
+            <div class="col-md-6 px-0">
+                <h1 class="display-4 fst-italic titulo-sombra">Movimiento y Estabilidad: Fuerzas e Interacciones</h1>
+                <p class="lead my-3">Explora los principios fundamentales que gobiernan el movimiento de los objetos y las fuerzas que interactúan en nuestro universo.</p>
+                <p class="lead mb-0"><a href="tema1.html" class="text-white fw-bold">Comenzar a aprender...</a></p>
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative caja-texto animacion-entrada">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Tema 1</strong>
+                        <h3 class="mb-0 titulo-sombra">Leyes de Newton</h3>
+                        <div class="mb-1 text-muted">Fundamentos de la Dinámica</div>
+                        <p class="card-text mb-auto">Las tres leyes que describen la relación entre el movimiento de un objeto y las fuerzas que actúan sobre él.</p>
+                        <a href="tema1.html" class="stretched-link">Continuar leyendo</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="fisica1.jpg" width="200" height="250" alt="Leyes de Newton">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative caja-texto animacion-entrada">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Tema 2</strong>
+                        <h3 class="mb-0 titulo-sombra">Fuerzas Fundamentales</h3>
+                        <div class="mb-1 text-muted">Interacciones del Universo</div>
+                        <p class="mb-auto">Conoce las cuatro fuerzas fundamentales que gobiernan todas las interacciones en el cosmos.</p>
+                        <a href="tema2.html" class="stretched-link">Continuar leyendo</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="fisica2.jpg" width="200" height="250" alt="Fuerzas Fundamentales">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-5">
+            <div class="col-md-8">
+                <h3 class="pb-4 mb-4 fst-italic border-bottom titulo-sombra">
+                    Introducción a la Materia
+                </h3>
+
+                <article class="blog-post">
+                    <h2 class="blog-post-title titulo-sombra">Objetivo del Curso</h2>
+                    <p class="blog-post-meta">Publicado el 15 de marzo, 2024</p>
+
+                    <p>Este sitio web está diseñado para estudiantes de quinto semestre de física y áreas afines. El objetivo es proporcionar una comprensión profunda de los conceptos de movimiento, estabilidad y las fuerzas que gobiernan las interacciones en la naturaleza.</p>
+                    
+                    <div class="caja-destacada">
+                        <h4>Público Objetivo</h4>
+                        <ul>
+                            <li>Estudiantes de física de nivel medio superior</li>
+                            <li>Estudiantes de ingeniería que requieren fundamentos de mecánica</li>
+                            <li>Docentes buscando material didáctico</li>
+                            <li>Entusiastas de la física recreativa</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Justificación de Colores</h3>
+                    <p>La paleta de colores seleccionada (azul, gris y rojo) representa:</p>
+                    <ul>
+                        <li><strong>Azul (#3498db):</strong> Representa la ciencia, la estabilidad y la confianza</li>
+                        <li><strong>Gris oscuro (#2c3e50):</strong> Simboliza la seriedad y profundidad del conocimiento científico</li>
+                        <li><strong>Rojo (#e74c3c):</strong> Representa la energía, fuerza y dinamismo</li>
+                    </ul>
+                    
+                    <h3>Prioridades Educativas</h3>
+                    <ol>
+                        <li>Comprensión conceptual antes que memorización</li>
+                        <li>Aplicación práctica de los principios físicos</li>
+                        <li>Desarrollo del pensamiento crítico y analítico</li>
+                        <li>Conexión con fenómenos cotidianos</li>
+                    </ol>
+                    
+                    <!-- Primer elemento incrustado -->
+                    <div class="iframe-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LEHR8YQNm_Q" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    
+                    <h3>Recursos Adicionales</h3>
+                    <p>Cada tema incluye:</p>
+                    <ul>
+                        <li>Explicaciones detalladas con ejemplos</li>
+                        <li>Imágenes y diagramas ilustrativos</li>
+                        <li>Simulaciones interactivas (cuando es posible)</li>
+                        <li>Ejercicios de aplicación</li>
+                        <li>Enlaces a recursos externos de calidad</li>
+                    </ul>
+                </article>
+
+            </div>
+
+            <!-- BARRA LATERAL -->
+            <div class="col-md-4">
+                <div class="position-sticky" style="top: 2rem;">
+                    <div class="p-4 mb-3 bg-light rounded caja-texto">
+                        <h4 class="fst-italic titulo-sombra">Acerca de</h4>
+                        <p class="mb-0">Este sitio cubre los contenidos de Física V: Movimiento y Estabilidad, correspondiente al quinto semestre del plan de estudios.</p>
+                    </div>
+
+                    <div class="p-4">
+                        <h4 class="fst-italic titulo-sombra">Temas Disponibles</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><a href="tema1.html">1. Leyes de Newton</a></li>
+                            <li><a href="tema2.html">2. Fuerzas Fundamentales</a></li>
+                            <li><a href="tema3.html">3. Equilibrio y Torque</a></li>
+                            <li><a href="tema4.html">4. Movimiento Circular</a></li>
+                        </ol>
+                    </div>
+
+                    <div class="p-4">
+                        <h4 class="fst-italic titulo-sombra">Recursos Externos</h4>
+                        <ol class="list-unstyled">
+                            <li><a href="https://phet.colorado.edu/es/" target="_blank">Simulaciones PhET</a></li>
+                            <li><a href="https://www.khanacademy.org/science/physics" target="_blank">Khan Academy Física</a></li>
+                            <li><a href="https://www.fisicalab.com/" target="_blank">FísicaLab</a></li>
+                            <li><a href="https://www.comoves.unam.mx/" target="_blank">Revista ¿Cómo ves?</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- BOTÓN VOLVER ARRIBA -->
+    <a href="#" class="btn-volver-arriba">↑</a>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">Sitio educativo desarrollado para Física V - Quinto Semestre</p>
+                    <p class="mb-0">© 2024 - Todos los derechos reservados</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="menu_principal.html" class="text-white me-3">Inicio</a>
+                    <a href="opiniones.html" class="text-white me-3">Opiniones</a>
+                    <a href="biografia.html" class="text-white">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Script para el botón volver arriba
+        document.querySelector('.btn-volver-arriba').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

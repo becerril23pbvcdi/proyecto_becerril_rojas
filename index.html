@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web educativo sobre Movimiento y Estabilidad: Fuerzas e Interacciones">
+    <meta name="keywords" content="física, movimiento, fuerzas, interacciones, educación">
+    <meta name="author" content="Estudiante de Física">
+    <title>Física: Movimiento y Estabilidad - Login</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body class="login-body">
+    <div class="container login-container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h1 class="h3 mb-0 titulo-sombra">Física V</h1>
+                        <p class="mb-0">Movimiento y Estabilidad</p>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="text-center mb-4 titulo-sombra">Acceso al Sistema</h2>
+                        
+                        <form action="validar.php" method="POST">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" name="email" 
+                                       required placeholder="usuario@ejemplo.com">
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="password" 
+                                       name="password" required>
+                            </div>
+                            
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary btn-lg">Iniciar Sesión</button>
+                            </div>
+                        </form>
+                        
+                        <div class="text-center mt-4">
+                            <p>¿No tienes cuenta? <a href="registro.html" class="text-decoration-none">Regístrate aquí</a></p>
+                        </div>
+                        
+                        <div class="alert alert-info mt-3">
+                            <small>
+                                <strong>Credenciales de prueba:</strong><br>
+                                Email: juan@ejemplo.com<br>
+                                Contraseña: 123456
+                            </small>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-muted">Sitio educativo - Quinto Semestre</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
